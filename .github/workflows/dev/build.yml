@@ -7,11 +7,14 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
+      - name: Info
+        run: echo "${{github}}
       - name: Clone Repo
         run: echo "Repo Cloned"
       - name: Get Dependencies
         run: echo "Dependencies downloaded"
       - name: Build Code
         run: echo "Code Built"
+      
     
 
