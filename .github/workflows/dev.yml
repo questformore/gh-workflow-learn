@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone Repo
-        run: ech "Repo Cloned"
+        run: echo "Repo Cloned"
       - name: Get Dependencies
         run: echo "Dependencies downloaded"
       - name: Build Code
