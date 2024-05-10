@@ -1,0 +1,17 @@
+name: Workflow-Dev
+on:
+  workflow_dispatch:
+  push:
+    branches: [develop]
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repo
+        run: echo "Repo Cloned"
+      - name: Get Dependencies
+        run: echo "Dependencies downloaded"
+      - name: Build Code
+        run: echo "Code Built"
+    
+
