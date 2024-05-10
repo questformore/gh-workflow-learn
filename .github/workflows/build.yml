@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Info
-        run: echo "${{ toJSON(github) }}
+        run: echo "${{ toJSON(github) }}"
       - name: Clone Repo
         run: echo "Repo Cloned"
       - name: Get Dependencies
